@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object fit and Object cover</title>
+    <style>
+        .container{
+            height: 488px;
+            width: 466px;
+            border: 2px solid black;
+            background-color: darkorchid;
+        }
+        img{
+            width: 466px;
+            height: 488px;
+            object-position: top right;
+            object-fit: cover;
+            /* object-fit: contain; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="man-holding-a-camera-3356672.jpg" alt="">
+    </div>
+</body>
+</html>
