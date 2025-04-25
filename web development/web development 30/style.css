@@ -1,0 +1,32 @@
+:root{
+    --color: rgb(21, 21, 224); /* These are global variables in css and programmer can use it in multiple tages*/
+    --seccolor: rgb(174, 174, 222);   
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 34px;
+}
+
+ul li:first-child{
+    --color:rgb(243, 87, 8); /* Local Variable in css*/ 
+    background-color: var(--color);
+}
